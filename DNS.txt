@@ -1,0 +1,25 @@
+1. tools -> DNS
+2. forward -> expand domain
+3. pravym na meno servera, properties
+4. zakliknut update asociated pointer a apply a ok
+
+REVERSE:
+1. refresh reverse lookup zones
+
+
+1. pravym na meno domeny a properties
+2. dynamic updates a oznacit nonsecure and secure a apply
+3. nezatvarat a klik na start of authority
+4. refresh interval na 1 aj to poddtym vsetko a apply
+5. kliknut na name server a skontrolovat meno 
+6. kliknut zone transfer a allow zone transfer a to prve a ok, zavriet
+
+1. pravym na server pod dns a clear cache
+2. pravym na domain name a reload a yes
+
+
+1. Otworit powershell admin
+2. ipconfig /flushdns
+3. ipconfig /registerdns
+4. run -> services.msc
+5. stop DNS server, start DNS

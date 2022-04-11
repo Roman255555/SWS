@@ -1,0 +1,33 @@
+LOADER:
+{rrg2546rhtrh}
+partition=C:
+\Windows\system32\winload.exe
+Windows Server
+en-Us
+{}
+{}
+Recovery
+Yes
+0x585
+partition=C:
+\Windows
+{}
+OptOut
+
+
+
+MANAGER:
+{}
+partition=\Device\HarddiskVolume1
+Windows Boot Manager
+en-us
+{}
+Yes
+{}
+{}
+{}
+{}
+30
+
+
+

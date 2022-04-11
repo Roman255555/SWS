@@ -1,0 +1,13 @@
+ 1. Tools -> DNS
+2. Forward lookup -> new
+3. pravym na vytvorenu zonu -> new host AAA
+4. nastavit adresu localneho serveru a ADD
+
+reverse:
+
+1. Reverse -> new
+2. primary,Ipv4,prve 3 oktety adresy
+
+3. vo vytvorenej zone pravym, new pointer record
+4. browse, rozkliknut serve a dorozklikat na koniec
+

@@ -1,0 +1,40 @@
+ZAVADZAC:
+
+cmd >
+bcdedit   / bcdedit -v
+bcdedit /copy {57a87157-887e-11ec-be31-00155d380109} /d "Test"
+
+diskpart,list volume a to kde je boot
+d:
+c: 
+dir
+
+bcdedit /set {57a87157-887e-11ec-be31-00155d380109} device partition=E:
+
+bcdedit /set {57a87157-887e-11ec-be31-00155d380109} path \windows\system32\winload.exe
+
+HESLO:
+
+vpravo dole ez access
+
+shift +f10 prikazovy riadok
+
+cd Windows\System32
+copy Utilman.exe utilman.exe.bak
+
+copy cmd.exe Utilman.exe
+
+
+net user
+
+net user bob P@ssw0rd
+
+
+
+
+
+/////
+
+gpedit.msc
+computer/administrative\windows component\bitlocker\open system drives / 3.
+

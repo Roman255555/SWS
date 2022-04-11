@@ -1,0 +1,13 @@
+test:	1.dostat se do systemu (napr chybi heslo admina tak se do nej dostat)
+	2. novy virtual - 2015
+	3. https://test3.contoso.com a zobrazi se napr hello	-muze byt zablokovany port 443, defaults document
+
+
+
+pokud chybi heslo: nabootovat cd (nekde nahore v menu nastavil a zmenil poradi firmware na CD jako prvni), continue, pak troubleshoot, cmd: bcdedit, bcdedit /v, bcdedit /set (default) path \windows\system32\winload.efi,
+c:, cd windows, cd System32, copy Utilmn.exe Utilman.exe.bak, exit.
+potom continue. Pak by se mela zobrazit cmd. net user, net user administrator *. Zmenim heslo a prihlasim se.
+
+2:
+	DNS, forward lookup zones, contoso.com, new host A
+
