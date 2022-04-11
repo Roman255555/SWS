@@ -1,0 +1,13 @@
+x:\Sources>d:
+dir
+-zistim kde je windows
+
+cd windows
+cd system32
+ren utilman.exe utilman.old
+copy cmd.exe utilman.exe
+
+...
+continue
+
+net user administrator p2ssw0rd
